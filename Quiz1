@@ -1,0 +1,86 @@
+## Git & GitHub
+
+### Question 1
+
+What is Git, what problem does it solve? What is the difference between Git and Github?
+
+# Answer goes here...
+Git is a version control system can be use to handle small - large projects. It sovle users problems of not able to track their files. Github hold Git repository form users.
+```
+
+### Question 2
+How do you commit a file to the staging area
+```
+# Answer goes here...
+```first use _ git add "", then git commit -m ""
+
+### Question 3
+Explain the purpose of git init?
+```
+# Answer goes here...
+``` For git to keep track of any changes to the folder (master)
+
+### Question 4
+Explain the purpose of branches?
+```
+# Answer goes here...
+``` To keep track of all the commits you made that u use git add in git with. the first is the default
+
+## HTML & CSS
+
+### Question 1
+
+What is the purpose of seperating your HTML and CSS?
+```
+# Answer goes here...
+``` For your HTML would consist of just the coding and the CSS would be just the stylping.
+
+### Question 2
+How would you link a CSS file entitled `hardstyle.css` in an HTML file?
+
+```html
+<!-- Answer goes here... -->
+```Add a link in the head tag in the html document. EX: <link rel="stylesheet" href="">
+
+### Question 3
+
+Write a CSS selector that will apply styling to an element with an id of `dog-resume`...
+
+
+```css
+/* Answer goes here... */
+``` #dog-resume {
+      	border-radius: 6px; }
+
+### Question 4
+
+Write a CSS selector-rule that will select and apply styling to every `<li>` inside of a `<ul>`:
+
+```css
+/* Answer goes here... */
+``` .skillz {
+      	font-family: Segoe Script;
+      	font-size: 21px; }
+---
+
+> **For Questions 3 & 4 use the code example below...**
+
+```html
+<body>
+  <div id="dog-resume">
+    <ul class="skillz">
+      <li> - Bone Location</li>
+      <li> - Remote Sniffing</li>
+      <li> - Delineating Territory</li>
+      <li> - Shoe Deconstruction </li>
+      <li> - Carpet Stain Placement </li>
+    </ul>
+  </div>
+</body>
+```
+
+### Question 5
+ How will you list all the files within a directory including hidden files aka (.) dot files?
+ ```
+# Answer goes here...
+ls and ls -a
